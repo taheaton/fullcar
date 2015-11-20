@@ -1,0 +1,38 @@
+// Put any @imports here
+// See Readme for a list of supported ones
+@import "foundation";
+@import "font-awesome";
+
+body {
+  background: #e2ebf3;
+  position: relative;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+
+.panel {
+  cursor: pointer;
+}
+
+.attachImage {
+  float: right;
+  font-size: 12px;
+  vertical-align: middle;
+  i {
+    padding-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+}
+.uploadForm {
+  clear: both;
+  width: 275px;
+  margin-top: 10px;
+  float: right;
+  background-color: rgba(51, 51, 51, 1);
+  color: white;
+  padding: 10px 10px 5px 10px;
+}

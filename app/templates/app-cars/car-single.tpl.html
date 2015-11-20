@@ -1,0 +1,21 @@
+<h3>Single Car</h3>
+
+<car-item car="vm.car"></car-item>
+
+<a class="attachImage" ng-click="vm.showMainForm()"><i class="fa fa-star"></i> Add Maintenance Issue</a>
+
+<form ng-show="vm.showMainFormNow" ng-submit="vm.addMain(main, vm.car)">
+  <input ng-model="main.type">
+  <input ng-model="main.date" type="date">
+  <button>Add Maintenance</button>
+</form>
+
+<hr>
+
+<img ng-show="vm.car.image" ng-src="{{ vm.car.image }}">
+
+<hr>
+
+<a class="attachImage" ng-click="vm.showForm()"><i class="fa fa-cloud-upload"></i> Attach Image</a>
+
+<add-image ng-show="vm.showImageUpload" car="vm.car"></add-image>
