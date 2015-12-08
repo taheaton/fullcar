@@ -2,6 +2,8 @@
 
 > This is a Car Tracking Application which demonstrates a number of functions:
 - The user is taken to a login page upon entering the website.
+- This site communicates api data with parse.com database.
+- The user can view cars in the database, add cars for the database, and also, view a detailed list and 'schedule maintenance for the cars.
 
 
 ## Usage
