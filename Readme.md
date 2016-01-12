@@ -1,9 +1,15 @@
 ## Welcome to My Project
 
 > This is a Car Tracking Application which demonstrates a number of functions:
+<<<<<<< HEAD
 - The user is taken to a login page upon entering the website.  The login information must be verified by a database (parse.com).  Please use the following to access ... Username:  bill  Password:  abcdefg
 
 - Once logged in, the user can view 
+=======
+- The user is taken to a login page upon entering the website.
+- This site communicates api data with parse.com database.
+- The user can view cars in the database, add cars for the database, and also, view a detailed list and 'schedule maintenance for the cars.
+>>>>>>> a551680280c3fe4411e61883119c91324ba1eff3
 
 
 ## Usage
