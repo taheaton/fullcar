@@ -9,6 +9,7 @@ let carItem = function($state, CarService) {
     template: `
       <div class="panel" ng-click="vm.clicked(car)">
         <h5>{{ car.color }} {{ car.year }} {{ car.make }} {{ car.model }}</h5>
+        <img src = "{{car.image}}">
       </div>
     `,
     controller: 'CarsController as vm',

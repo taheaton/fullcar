@@ -1,7 +1,9 @@
 ## Welcome to My Project
 
 > This is a Car Tracking Application which demonstrates a number of functions:
-- The user is taken to a login page upon entering the website.
+- The user is taken to a login page upon entering the website.  The login information must be verified by a database (parse.com).  Please use the following to access ... Username:  bill  Password:  abcdefg
+
+- Once logged in, the user can view 
 
 
 ## Usage

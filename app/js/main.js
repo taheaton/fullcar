@@ -149,7 +149,7 @@ var carItem = function carItem($state, CarService) {
     scope: {
       car: '='
     },
-    template: '\n      <div class="panel" ng-click="vm.clicked(car)">\n        <h5>{{ car.color }} {{ car.year }} {{ car.make }} {{ car.model }}</h5>\n      </div>\n    ',
+    template: '\n      <div class="panel" ng-click="vm.clicked(car)">\n        <h5>{{ car.color }} {{ car.year }} {{ car.make }} {{ car.model }}</h5>\n        <img src = "{{car.image}}">\n      </div>\n    ',
     controller: 'CarsController as vm',
     link: function link(scope, element, attrs) {
       element.on('click', function () {
@@ -233,6 +233,7 @@ var CarService = function CarService($http, PARSE, $cookies) {
     this.name = carObj.name;
     this.color = carObj.color;
     this.fuzzydice = true;
+    this.image = carObj.image;
   }
 
   function toggleFuzzy(carObj) {

@@ -16,6 +16,7 @@ let CarService = function($http, PARSE, $cookies) {
     this.name = carObj.name;
     this.color = carObj.color;
     this.fuzzydice = true;
+    this.image = carObj.image;
   }
 
   function toggleFuzzy (carObj) {
